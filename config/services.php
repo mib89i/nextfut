@@ -35,4 +35,10 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'facebook' => [
+        'client_id' => '562018453991990',
+        'client_secret' => '2837f631f36756ae67e441240fbddb6d',
+        'redirect' => 'http://nextfut.dev/login/facebook/callback',
+    ],
+
 ];
